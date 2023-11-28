@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="relative min-h-screen px-4 pt-4 md:px-6 md:pt-6 pb-0 ">
-      <div className="absolute inset-0 min-h-screen bg-dhrmkAstro bg-repeat bg-contain animate-scrollForeverX -z-10"></div>
+      <div className="absolute inset-0 min-h-screen bg-dhrmkAstro bg-repeat bg-contain animate-scrollReverseX -z-10"></div>
       <div className="max-w-[900px] mx-auto flex">
         {/* <div className="hidden md:flex group relative flex-col h-screen w-fit max-w-fit rounded-xl overflow-hidden mx-4">
           <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat-y bg-contain animate-scrollForever group-hover:animate-scrollReverse" />
