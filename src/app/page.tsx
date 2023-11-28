@@ -5,7 +5,7 @@ export default function Home() {
       <div className="max-w-[900px] mx-auto h-full flex">
         <div className="flex w-full flex-col space-y-4 lg:space-y-10 mx-auto">
           {/*first card*/}
-          <div className="group flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50">
+          <div className="group flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 cursor-rocket">
             <div className="absolute inset-0 h-full w-full bg-dhrmkAstro bg-repeat-x bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
             <div className="flex items-end z-10 w-full h-fit mx-2">
               <div className="flex w-1/2 items-center my-auto text-center justify-center">
@@ -14,13 +14,13 @@ export default function Home() {
                 </h1>
               </div>
               <div
-                className="flex h-1/2 w-1/2 items-end"
+                className="flex h-1/2 w-1/2 items-end grayscale hover:grayscale-0  "
                 // className="group-hover/peer:grayscale group-hover/peer:-translate-x-16"
               >
                 <Image
                   height={400}
                   width={400}
-                  className="-scale-x-100"
+                  className="-scale-x-100 cursor-spotlight"
                   src="/dhrmk-astro.png"
                   // height={200}
                   // width={360}
@@ -90,7 +90,7 @@ export default function Home() {
                   </svg>
                 </div>
               </a>
-              <a href="#">
+              <a href="https://discord.com/users/1103331985239322635">
                 <div className="m-2 h-6 w-6 hover:scale-125">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +268,14 @@ export default function Home() {
                 Built really fast 🚀🚀🚀
               </h1>
               <h4 className="text-sm text-center">
-                so dont judge the code now!
+                so dont judge the{" "}
+                <a
+                  href="https://github.com/dhrmk/dhrmk.dev"
+                  className="text-blue-800"
+                >
+                  code{" "}
+                </a>{" "}
+                now!
               </h4>
             </div>
           </div>

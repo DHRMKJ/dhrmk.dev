@@ -12,6 +12,10 @@ const config: Config = {
         dhrmk: "url('/bg.png')",
         dhrmkAstro: "url('/bg-astro.jpg')",
       },
+      cursor: {
+        rocket: "url('/ufo.png'), auto",
+        spotlight: "url('/spotlight.png') auto",
+      },
       fontFamily: {
         japan: ["'Noto Serif JP'", "serif"],
       },
