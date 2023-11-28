@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen p-6 pb-0 ">
       <div className="absolute inset-0 min-h-screen bg-dhrmkAstro bg-repeat bg-contain animate-scrollForeverX -z-10"></div>
-      <div className="max-w-[900px] mx-auto h-full flex">
+      <div className="max-w-[900px] mx-auto flex">
         {/* <div className="hidden md:flex group relative flex-col h-screen w-fit max-w-fit rounded-xl overflow-hidden mx-4">
           <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat-y bg-contain animate-scrollForever group-hover:animate-scrollReverse" />
           <div className="flex z-10 h-1/2 items-center mx-auto">
@@ -20,24 +20,24 @@ export default function Home() {
             <Image src="/dhrmk.png" height={150} width={250} alt="me"></Image>
           </div>
         </div> */}
-        <div className="flex w-full flex-col space-y-4 lg:space-y-10 mx-auto">
+        <div className="relative flex w-full flex-col min-h-screen space-y-4 lg:space-y-10 justify-between mx-auto">
           {/*first card*/}
           <div className="flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 cursor-rocket">
             <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
-            <div className="group flex items-end z-10 w-[80%] h-fit mx-2 lg:mx-0">
-              <div className="flex h-1/2 w-1/2 items-end justify-end hover:grayscale grayscale-0">
+            <div className="group flex items-end z-10 w-3/4 lg:w-2/3 h-fit mx-auto md:mx-4">
+              <div className="flex md:h-1/2 md:w-1/2 items-end justify-center md:justify-end hover:grayscale grayscale-0">
                 <Image
                   height={400}
                   width={400}
-                  className="cursor-spotlight translate-x-16 group-hover:translate-x-0"
+                  className="cursor-spotlight md:translate-x-16 md:group-hover:translate-x-0"
                   src="/dhrmk-astro.png"
                   // height={200}
                   // width={360}
                   alt="me"
                 ></Image>
               </div>
-              <div className="flex w-1/2 my-auto text-right justify-start">
-                <h1 className="text-3xl md:text-5xl md:group-hover:text-6xl lg:text-7xl lg:group-hover:text-8xl text-right">
+              <div className="hidden md:flex w-1/2 my-auto text-right justify-end">
+                <h1 className="text-3xl md:text-6xl md:group-hover:text-6xl lg:text-7xl md:group-hover:text-8xl text-right">
                   dhrmk
                 </h1>
               </div>
@@ -135,6 +135,7 @@ export default function Home() {
               </a>
             </div>
           </div>
+          {/*"third card"*/}
           <div className="bg-[#44aadd] w-full h-fit rounded-xl overflow-hidden">
             <div className=" m-2 px-3 lg:px-6 py-2">
               <h1 className="text-xl lg:text-3xl text-center"> Skills</h1>
@@ -276,8 +277,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full bg-[#ff66aa] h-fit rounded-t-xl overflow-hidden ">
-            <div className="m-2 px-3 lg:px-6 py-2">
+          <div className="mt-auto w-full bg-[#ff66aa]  rounded-t-xl overflow-hidden ">
+            <div className="mt-2 px-3 lg:px-6 py-2">
               <h1 className="text-xl lg:text-3xl text-center pb-2">
                 Built really fast 🚀🚀🚀
               </h1>
