@@ -39,7 +39,7 @@ export default function Home() {
                 well mostly web applications and I like to contribute to
                 opensource when I have free time so,<br></br>
                 <span className="font-bold">
-                  Let's connect and collaborate on the next big thing!
+                  {"Let's connect and collaborate on the next big thing!"}
                 </span>
               </h3>
             </div>
