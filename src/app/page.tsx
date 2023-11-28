@@ -284,7 +284,7 @@ export default function Home() {
               <h4 className="text-sm text-center">
                 so dont judge the{" "}
                 <a
-                  href="https://github.com/dhrmk/dhrmk.dev"
+                  href="https://github.com/dhrmkj/dhrmk.dev"
                   className="text-blue-800"
                 >
                   code{" "}
