@@ -23,7 +23,7 @@ export default function Home() {
         <div className="relative flex w-full flex-col min-h-screen space-y-2 lg:space-y-6 justify-between mx-auto">
           {/*first card*/}
           <div className="flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 ">
-            <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
+            <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat-y animate-scrollForever " />
 
             <div className="flex group w-3/4 mx-auto md:mx-0">
               <Image

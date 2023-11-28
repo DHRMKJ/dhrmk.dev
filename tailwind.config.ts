@@ -21,8 +21,8 @@ const config: Config = {
       },
       // Define animation class
       animation: {
-        scrollForever: "scrollForever 30s linear infinite",
-        scrollReverse: "scrollReverse 30s linear infinite",
+        scrollForever: "scrollForever 10s linear infinite",
+        scrollReverse: "scrollReverse 10s linear infinite",
         scrollForeverX: "scrollForeverX 30s linear infinite",
         scrollReverseX: "scrollReverseX 30s linear infinite",
       },
