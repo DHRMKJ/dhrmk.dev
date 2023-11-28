@@ -1,31 +1,29 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="min-h-screen p-6 pb-0 ">
+    <main className="relative min-h-screen p-6 pb-0 ">
+      <div className="absolute inset-0 min-h-screen bg-dhrmkAstro bg-repeat bg-contain animate-scrollForeverX -z-10"></div>
       <div className="max-w-[900px] mx-auto h-full flex">
         <div className="flex w-full flex-col space-y-4 lg:space-y-10 mx-auto">
           {/*first card*/}
-          <div className="group flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 cursor-rocket">
-            <div className="absolute inset-0 h-full w-full bg-dhrmkAstro bg-repeat-x bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
-            <div className="flex items-end z-10 w-full h-fit mx-2">
-              <div className="flex w-1/2 items-center my-auto text-center justify-center">
-                <h1 className="text-3xl lg:text-6xl lg:hover:text-7xl text-center ">
-                  dhrmk.dev
-                </h1>
-              </div>
-              <div
-                className="flex h-1/2 w-1/2 items-end grayscale hover:grayscale-0  "
-                // className="group-hover/peer:grayscale group-hover/peer:-translate-x-16"
-              >
+          <div className="flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 cursor-rocket">
+            <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
+            <div className="group flex items-end z-10 w-[80%] h-fit mx-2 lg:mx-0">
+              <div className="flex h-1/2 w-1/2 items-end justify-end hover:grayscale grayscale-0">
                 <Image
                   height={400}
                   width={400}
-                  className="-scale-x-100 cursor-spotlight"
+                  className="cursor-spotlight translate-x-16 group-hover:translate-x-0"
                   src="/dhrmk-astro.png"
                   // height={200}
                   // width={360}
                   alt="me"
                 ></Image>
+              </div>
+              <div className="flex w-1/2 my-auto text-right justify-start">
+                <h1 className="text-3xl md:text-5xl md:group-hover:text-6xl lg:text-7xl lg:group-hover:text-8xl text-right">
+                  dhrmk
+                </h1>
               </div>
             </div>
           </div>
@@ -45,7 +43,7 @@ export default function Home() {
             </div>
             <div className="flex justify-between bg-[#6644cc] p-2 lg:px-4">
               <a href="https://github.com/dhrmkj">
-                <div className="m-2 h-6 w-6 hover:scale-125">
+                <div className="m-2 h-7 w-7 hover:scale-125">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-8 0 512 512"
