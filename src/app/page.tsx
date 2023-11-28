@@ -24,23 +24,18 @@ export default function Home() {
           {/*first card*/}
           <div className="flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 ">
             <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
-            <div className="group flex items-end z-10 w-3/4 lg:w-2/3 h-fit mx-auto md:mx-4">
-              <div className="flex md:h-1/2 md:w-1/2 items-end justify-center md:justify-end hover:grayscale grayscale-0">
-                <Image
-                  height={400}
-                  width={400}
-                  className="md:translate-x-16 md:group-hover:translate-x-0"
-                  src="/dhrmk-astro.png"
-                  // height={200}
-                  // width={360}
-                  alt="me"
-                ></Image>
-              </div>
-              <div className="hidden md:flex w-1/2 my-auto text-right justify-end">
-                <h1 className="text-3xl md:text-6xl md:group-hover:text-6xl lg:text-7xl md:group-hover:text-8xl text-right">
-                  dhrmk
-                </h1>
-              </div>
+
+            <div className="flex group w-3/4 mx-auto md:mx-0">
+              <Image
+                height={400}
+                width={400}
+                className="z-10 mx-auto md:mx-2 md:translate-x-16 pointer-events-none group-hover:translate-x-0 transition ease-out delay-150"
+                src="/dhrmk-astro.png"
+                alt="me"
+              ></Image>
+              <h1 className="hidden md:block h-fit w-full text-right my-auto text-3xl md:text-6xl md:group-hover:text-7xl lg:text-7xl lg:group-hover:text-8xl text-white z-10 transition ease-out delay-150">
+                dhrmk
+              </h1>
             </div>
           </div>
           {/*second card #ff66aa*/}
