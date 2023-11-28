@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="relative min-h-screen p-6 pb-0 ">
+    <main className="relative min-h-screen p-4 md:p-6 pb-0 ">
       <div className="absolute inset-0 min-h-screen bg-dhrmkAstro bg-repeat bg-contain animate-scrollForeverX -z-10"></div>
       <div className="max-w-[900px] mx-auto flex">
         {/* <div className="hidden md:flex group relative flex-col h-screen w-fit max-w-fit rounded-xl overflow-hidden mx-4">
@@ -20,7 +20,7 @@ export default function Home() {
             <Image src="/dhrmk.png" height={150} width={250} alt="me"></Image>
           </div>
         </div> */}
-        <div className="relative flex w-full flex-col min-h-screen space-y-4 lg:space-y-10 justify-between mx-auto">
+        <div className="relative flex w-full flex-col min-h-screen space-y-4 md:space-y-6 lg:space-y-10 justify-between mx-auto">
           {/*first card*/}
           <div className="flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 cursor-rocket">
             <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat bg-contain animate-scrollForeverX group-hover:animate-scrollReverseX " />
