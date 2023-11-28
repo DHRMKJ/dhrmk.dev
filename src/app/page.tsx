@@ -33,7 +33,7 @@ export default function Home() {
                 src="/dhrmk-astro.png"
                 alt="me"
               ></Image>
-              <h1 className="hidden md:block h-fit w-full text-right my-auto text-3xl md:text-6xl md:group-hover:text-7xl lg:text-7xl lg:group-hover:text-8xl text-white z-10 transition ease-out delay-150">
+              <h1 className="hidden md:block h-fit w-full text-right my-auto text-3xl md:text-6xl  lg:text-7xl  text-white z-10 transition-transform ease-out delay-200 group-hover:scale-150">
                 dhrmk
               </h1>
             </div>
