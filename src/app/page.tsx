@@ -278,7 +278,7 @@ export default function Home() {
                 Built really fast 🚀🚀🚀
               </h1>
               <h4 className="text-sm text-center">
-                inspired by
+                inspired by{" "}
                 <a href="https://astolfo.co/#" className="text-blue-800">
                   embed
                 </a>
