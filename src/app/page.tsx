@@ -22,14 +22,14 @@ export default function Home() {
         </div> */}
         <div className="relative flex w-full flex-col min-h-screen space-y-2 lg:space-y-6 justify-between mx-auto">
           {/*first card*/}
-          <div className="flex relative flex w-full rounded-xl overflow-hidden shadow-2 shadow-gray-50 ">
+          <div className="flex relative flex w-full rounded-xl overflow-hidden">
             <div className="absolute inset-0 h-full w-full bg-dhrmk bg-repeat-y animate-scrollForever " />
 
             <div className="flex group w-3/4 mx-auto md:mx-0">
               <Image
                 height={400}
                 width={400}
-                className="z-10 mx-auto md:mx-2 md:translate-x-16 pointer-events-none group-hover:translate-x-0 transition ease-out delay-150"
+                className="z-10 mx-auto md:mx-2 md:translate-x-24 pointer-events-none group-hover:translate-x-0 transition ease-out delay-150"
                 src="/dhrmk-astro.png"
                 alt="me"
               ></Image>
@@ -278,14 +278,10 @@ export default function Home() {
                 Built really fast 🚀🚀🚀
               </h1>
               <h4 className="text-sm text-center">
-                so dont judge the{" "}
-                <a
-                  href="https://github.com/dhrmkj/dhrmk.dev"
-                  className="text-blue-800"
-                >
-                  code{" "}
-                </a>{" "}
-                now!
+                inspired by
+                <a href="https://astolfo.co/#" className="text-blue-800">
+                  embed
+                </a>
               </h4>
             </div>
           </div>
