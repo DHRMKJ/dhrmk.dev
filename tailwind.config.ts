@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        dhrmk: "url('/bg.png')",
-        dhrmkAstro: "url('/bg-astro.jpg')",
+        dhrmk: "url('/dhrmk.dev/bg.png')",
+        dhrmkAstro: "url('/dhrmk.dev/bg-astro.jpg')",
       },
       cursor: {
-        rocket: "url('/ufo.png'), auto",
-        spotlight: "url('/spotlight.png') auto",
+        rocket: "url('/dhrmk.dev/ufo.png'), auto",
+        spotlight: "url('/dhrmk.dev/spotlight.png') auto",
       },
       fontFamily: {
         japan: ["'Noto Serif JP'", "serif"],
