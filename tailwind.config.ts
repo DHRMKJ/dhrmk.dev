@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        dhrmk: "url('/dhrmk.dev/bg.png')",
-        dhrmkAstro: "url('/dhrmk.dev/bg-astro.jpg')",
+        dhrmk: "url('/bg.png')",
+        dhrmkAstro: "url('/bg-astro.jpg')",
       },
       cursor: {
         rocket: "url('/ufo.png'), auto",

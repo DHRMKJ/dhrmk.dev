@@ -30,7 +30,7 @@ export default function Home() {
                 height={400}
                 width={400}
                 className="z-10 mx-auto md:mx-2 md:translate-x-24 pointer-events-none group-hover:translate-x-0 transition ease-out delay-150"
-                src="/dhrmk.dev/dhrmk-astro.png"
+                src="/dhrmk-astro.png"
                 alt="me"
               ></Image>
               <h1 className="hidden md:block h-fit w-full text-right my-auto text-3xl md:text-6xl  lg:text-7xl  text-white z-10 transition-transform ease-out delay-200 group-hover:scale-150">

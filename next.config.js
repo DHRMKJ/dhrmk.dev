@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   basePath: "/dhrmk.dev",
+  images: {
+    path: "/",
+  },
 };
 
 module.exports = nextConfig;
